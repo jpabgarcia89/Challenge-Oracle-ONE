@@ -1,0 +1,220 @@
+body{
+    background-color: #F3F5FC;
+    font-family: 'Inter', 'Segoe UI';
+    }
+
+.logo{
+    margin: 1.5rem auto auto 1.5rem  ;
+}
+
+.texto-encriptado{
+    color: #0A3871;
+    font-family: 'Inter', 'Segoe UI';
+    font-size: 2rem;
+    margin: 10px 2rem 1.5rem 2rem;
+    background-color: #f3fcf8;
+    border: none;
+    resize: none;
+    width: calc(90% - 4.5rem);
+    height: 380px;
+}
+
+.texto-encriptado:focus{
+    outline: none;
+}
+
+::placeholder{
+    color: #0A3871;
+    font-family: 'Inter', 'Segoe UI';
+    font-size: 2rem;
+}
+
+.tooltip{
+    font-size: 10px;
+    margin-left: 2rem;
+}
+
+.botones{
+    margin-top: 1rem;
+    margin-left: 2rem;
+    margin-right: 2rem;
+}
+
+.btn{
+    background-color: #0A3871;
+    color: #D8DFE8;
+    padding: 1.5rem;
+    border-radius: 1.5rem;
+    border-width: thin;
+    border-color:#0A3871;
+    width: 100%;
+    font-size: 16px;
+    margin-top: 1rem;
+    
+}
+
+#btn-encriptar:hover{
+    background-color: #D8DFE8;
+    color: #0A3871;
+}
+
+#btn-encriptar:active{
+    background-color: #0A3871;
+    color: #D8DFE8
+}
+
+#btn-desencriptar{
+    background-color: #D8DFE8;
+    color:  #0A3871;
+}
+
+#btn-desencriptar:hover{
+    background-color: #0A3871;
+    color: #F3F5FC;
+}
+
+#btn-desencriptar:active{
+    background-color: #D8DFE8;
+    color: #D8DFE8;
+}
+
+.caja{
+    text-align: center;
+    background-color: white;
+    margin: 1rem 2rem 4rem 2rem;
+    padding: 2rem 2rem 2rem 2rem;
+    border-radius: 1.5rem;
+    box-shadow: 0px 24px 32px -8px rgba(0, 0, 0, 0.08);
+}
+
+.muñeco{
+    display: none;
+}
+
+.msj-no-encontrado{
+    font-size: 1.5rem;
+    font-weight: bold;
+    margin-bottom: 1rem;
+}
+
+.txt-caja{
+    overflow-wrap: break-word;
+    font-size: 3rem;
+    color: #1f7ad4;
+}
+
+#btn-copiar{
+    background-color: white;
+    color: #0A3871;
+}
+
+#btn-copiar:hover{
+    background-color:#0A3871 ;
+    color: white;
+}
+
+#btn-copiar:active{
+    background-color: white;
+    color: #0A3871;
+}
+
+footer{
+    font-size: .8rem;
+    font-style: italic;
+    color: white;
+    text-align: center;
+    background-color: #0A3871;
+    padding: .7rem;
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+
+
+
+}
+
+
+
+@media screen and (min-width:550px) {
+    .texto-encriptado{
+        margin-top: calc(240px - 74px);
+    }
+
+    .btn{
+        width: 49%;
+
+    }
+
+    #btn-copiar{
+        width: 100%;
+    }
+
+}
+
+
+
+@media screen and (min-width:1060px){
+
+
+    .texto-encriptado{
+        margin-top: 94px;
+        margin-left: 240px;
+        width: 60%
+        
+    }
+
+    .tooltip{
+        margin-left: 0;
+        font-size: 0.75rem;
+    }
+
+    .botones{
+        margin-left: 220px;
+        margin-right: 0;
+        display: inline-block;
+        width: 100%;
+        margin-bottom: 100px;
+
+    }
+    
+    .btn{
+        width: 328px;
+        margin-right: 0;
+
+        
+    }
+
+    .container-izq{
+        float: left;
+        width: 50%;
+       }
+
+    .container-der{
+        float: right;
+    }
+
+    .caja{
+        position: relative;
+        width: 330px;
+        height: 660px;
+    }
+
+    .muñeco{
+        margin-top: 90px;
+        display: block;
+    }
+
+    .instrucciones{
+        margin-bottom: 0px;
+    }
+
+    #btn-copiar{
+        position: absolute;
+        bottom: 50px;
+        left: 22px;
+        right: auto;
+        width: 90%;
+    }
+    
+}

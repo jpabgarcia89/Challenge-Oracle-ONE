@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="reset.css">
+    <link rel="stylesheet" href="style.css">
+    <title>Encriptador-Challenge Alura</title>
+</head>
+<body>
+    <main class="cuerpo">
+
+        <div class="container-izq">
+            <h1><img class="logo" src="Imágenes/A de Alura.svg" alt=""></h1>
+            <textarea autofocus placeholder="Ingrese el texto aquí"  class="texto-encriptado" cols="45" rows="10"></textarea>
+            <div class="botones">
+                <p class="tooltip">&#9888; Solo letras minúsculas y sin acentos.</p>
+                <button class="btn" id="btn-encriptar">Encriptar</button>
+                <button class="btn" id="btn-desencriptar">Desencriptar</button>
+            </div>
+        </div>
+
+        <div class="container-der">
+            <div class="caja">
+                <img class="muñeco" id="muñeco" src="Imágenes/Muñeco.svg" alt="Personaje Alura">
+                <p class="txt-caja" id="txt-caja"></p>
+                <p class="msj-no-encontrado" id="msj-no-encontrado">Ningún mensaje fue encontrado</p>
+                <p class="instrucciones" id="instrucciones">Ingresa el texto que desees encriptar o desencriptar</p>
+                <button class="btn" id="btn-copiar">Copiar</button>
+            </div>
+        </div>
+    </main>
+
+    <footer>
+        <p class="copyrights">Made by Juan Pablo Garcia.</p>
+    </footer>
+
+    <script src="formulas.js"></script>
+    
+</body>
+</html>
